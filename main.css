@@ -107,9 +107,9 @@ section{
 
 section h2{
 
-    padding-bottom: 16px;
+    padding-bottom: 14px;
     border-bottom: 1px solid black;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     
 }
 
@@ -156,6 +156,8 @@ article p{
 }
 
 .fachada{
+    max-width: 300px;
+    max-height: 300px ;
     margin: auto ;
     margin-bottom: 20px;
 }
@@ -164,13 +166,14 @@ article p{
     display: grid;
     align-items: center;
     justify-content:center;
+
 }
 header .container{
     padding: 16px;
 }
 
 .conteudo {
-display:flex ;
+    display:flex ;
 
 }
 .conteudo h2 {
@@ -184,11 +187,18 @@ article{
     display: none;
 }
 section .produto{
+
 display:grid;
 grid-template-columns: 1fr;
 align-items: center;
 justify-items:center;
 }
+
+article{
+    margin: 0;
+    margin-left: 50px;
+}
+
 section {
 display: block;
 }
